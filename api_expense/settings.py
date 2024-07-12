@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-i1)uoop5$qu8($_jqm2_7qxx61d)!qn$+^aslz=&d5jd8oxq^7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['admanser.pythonanywhere.com', '*']
+ALLOWED_HOSTS = ["admanser.pythonanywhere.com"]
 
 
 # Application definition
@@ -91,7 +91,7 @@ WSGI_APPLICATION = "api_expense.wsgi.application"
 
 
 DATABASES = {
-    "default" :{
+    "default": {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "admanser$expense_db",
         "USER": "admanser",
