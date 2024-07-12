@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-i1)uoop5$qu8($_jqm2_7qxx61d)!qn$+^aslz=&d5jd8oxq^7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["admanser.pythonanywhere.com"]
 
 
 # Application definition
@@ -93,10 +93,10 @@ WSGI_APPLICATION = "api_expense.wsgi.application"
 DATABASES = {
     "default" :{
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "expense_db",
-        "USER": "root",
+        "NAME": "admanser$expense_db",
+        "USER": "admanser",
         "PASSWORD": "codopass123",
-        "HOST": "mysql",
+        "HOST": "admanser.mysql.pythonanywhere-services.com",
         "PORT": "3306",
     }
 }
@@ -155,4 +155,4 @@ CSRF_TRUSTED_ORIGINS = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-CORS_ORIGIN_WHITELIST = ('http://localhost:5000',)
+CORS_ORIGIN_WHITELIST = ('http://localhost:5000', 'admanser.pythonanywhere.com')
