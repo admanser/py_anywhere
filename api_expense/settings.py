@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-i1)uoop5$qu8($_jqm2_7qxx61d)!qn$+^aslz=&d5jd8oxq^7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["admanser.pythonanywhere.com"]
+ALLOWED_HOSTS = ["hadmanser.pythonanywhere.com"]
 
 
 # Application definition
@@ -145,7 +145,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Security settings
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']
+# ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://localhost:8000',
