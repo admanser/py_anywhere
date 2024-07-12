@@ -143,10 +143,6 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-# Security settings
-
-# ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']
-
 CSRF_TRUSTED_ORIGINS = [
     'https://localhost:8000',
     'http://localhost:8000',  # if also using http
@@ -155,4 +151,4 @@ CSRF_TRUSTED_ORIGINS = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-CORS_ORIGIN_WHITELIST = ('http://localhost:5000', 'http://admanser.pythonanywhere.com')
+CORS_ORIGIN_WHITELIST = ('http://localhost:5000','http://admanser.pythonanywhere.com')
