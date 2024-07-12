@@ -155,4 +155,4 @@ CSRF_TRUSTED_ORIGINS = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-CORS_ORIGIN_WHITELIST = ('http://localhost:5000', 'admanser.pythonanywhere.com')
+CORS_ORIGIN_WHITELIST = ('http://localhost:5000', 'http://admanser.pythonanywhere.com')
